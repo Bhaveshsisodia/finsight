@@ -1,0 +1,17 @@
+yfinance
+langchain
+langchain-openai
+langchain-community
+langgraph
+chromadb
+python-dotenv
+streamlit
+plotly
+pandas
+numpy
+feedparser
+requests
+beautifulsoup4
+pdfplumber
+langchain-groq
+tavily-python

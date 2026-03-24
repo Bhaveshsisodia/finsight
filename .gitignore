@@ -1,0 +1,14 @@
+# Ignore environment files
+.env
+.env.*
+
+# Ignore folder
+fpi_data/
+
+# Optional: ignore Python cache files
+__pycache__/
+*.pyc
+
+# Optional: ignore virtual environment
+venv/
+env/

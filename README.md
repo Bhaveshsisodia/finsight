@@ -1,6 +1,6 @@
 # 📈 FinSight India – AI-Powered Stock Research Dashboard
 
-![FinSight Hero Banner](file:///C:/Users/HP/.gemini/antigravity/brain/4ca6aff1-abe6-445f-81da-15ec42a69e75/finsight_hero_dashboard_1774536632632.png)
+![FinSight Hero Banner](finsight_hero_dashboard_1774536632632.png)
 
 ## 🚀 Overview
 

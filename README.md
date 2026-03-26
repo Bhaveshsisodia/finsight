@@ -29,7 +29,7 @@ Designed for serious investors, FinSight India transforms raw market data into a
 
 ## 📸 Dashboard Preview
 
-![FinSight Dashboard](file:///C:/Users/HP/.gemini/antigravity/brain/4ca6aff1-abe6-445f-81da-15ec42a69e75/finsight_streamlit_ui_clean_1774536716528.png)
+![FinSight Dashboard](finsight_streamlit_ui_clean_1774536716528.png)
 
 ---
 

@@ -5,7 +5,10 @@ from graph.nodes import (
       news_node, fii_dii_node,
         relative_strength_node, probability_node)
 
-from IPython.display import Image, display
+try:
+    from IPython.display import Image, display
+except ImportError:
+    Image = display = None
 
 
 
@@ -37,12 +40,13 @@ graph.add_edge('probability_node', END)
 
 app=graph.compile()
 
-display(Image(app.get_graph().draw_mermaid_png()))
-# save graph image once
-with open("graph/workflow_graph.png", "wb") as f:
-    f.write(app.get_graph().draw_mermaid_png())
-
-print("Graph saved to graph/workflow_graph.png")
+if __name__ == "__main__":
+    # Only run in notebook / direct execution — not during Streamlit import
+    if display and Image:
+        display(Image(app.get_graph().draw_mermaid_png()))
+    with open("graph/workflow_graph.png", "wb") as f:
+        f.write(app.get_graph().draw_mermaid_png())
+    print("Graph saved to graph/workflow_graph.png")
 
 
 # result = app.invoke({"symbol": "TORNTPHARM"})
